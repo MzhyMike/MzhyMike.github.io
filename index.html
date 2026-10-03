@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio | Michael Ramírez</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Devicon CDN para íconos técnicos -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans antialiased min-h-screen">
+
+  <!-- Encabezado / Hero -->
+  <header class="max-w-4xl mx-auto px-6 py-16 text-center">
+    <h1 class="text-4xl md:text-5xl font-bold tracking-tight text-white mb-2">Michael Steven Vásquez Ramírez</h1>
+    <p class="text-lg md:text-xl text-sky-400 font-medium mb-4">Desarrollador de Software | Backend & Infraestructura</p>
+    <p class="max-w-2xl mx-auto text-slate-400 text-sm md:text-base mb-6 leading-relaxed">
+      Estudiante Técnico en Ingeniería de Software con enfoque en desarrollo de aplicaciones MVC, sistemas de escritorio y administración de entornos de servidor.
+    </p>
+    <div class="flex justify-center gap-4">
+      <a href="https://www.linkedin.com/in/michael-ramirez-1671073b0/" target="_blank" rel="noopener noreferrer" 
+         class="px-5 py-2.5 bg-slate-800 hover:bg-slate-700 text-white rounded-lg text-sm font-semibold border border-slate-700 transition">
+        GitHub
+      </a>
+      <a href=https://www.linkedin.com/in/michael-ramirez-1671073b0/" target="_blank" rel="noopener noreferrer" 
+         class="px-5 py-2.5 bg-sky-600 hover:bg-sky-500 text-white rounded-lg text-sm font-semibold transition">
+        LinkedIn
+      </a>
+    </div>
+  </header>
+
+  <!-- Sección de Proyectos -->
+  <main class="max-w-4xl mx-auto px-6 pb-20">
+    <h2 class="text-2xl font-bold text-white mb-8 border-b border-slate-800 pb-3">Proyectos Destacados</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      
+      <!-- Tarjeta: Sistema C# -->
+      <article class="bg-slate-800/60 border border-slate-700/60 rounded-xl p-6 flex flex-col justify-between hover:border-slate-500 transition">
+        <div>
+          <div class="flex items-center gap-3 text-2xl text-sky-400 mb-3">
+            <i class="devicon-csharp-plain"></i>
+            <i class="devicon-microsoftsqlserver-plain"></i>
+          </div>
+          <h3 class="text-xl font-semibold text-white mb-2">Sistema de Gestión de Cursos</h3>
+          <p class="text-slate-400 text-sm leading-relaxed mb-4">
+            Aplicación de escritorio desarrollada en C# conectada a SQL Server. Integra control de acceso, roles de usuario y generación de reportes interactivos.
+          </p>
+        </div>
+        <a href="https://github.com/MzhyMike/C--proyect" target="_blank" rel="noopener noreferrer" 
+           class="inline-flex items-center justify-center w-full px-4 py-2 text-sm font-medium bg-slate-700 hover:bg-slate-600 text-white rounded-lg transition">
+          Ver Código en GitHub &rarr;
+        </a>
+      </article>
+
+      <!-- Tarjeta: Web Laravel -->
+      <article class="bg-slate-800/60 border border-slate-700/60 rounded-xl p-6 flex flex-col justify-between hover:border-slate-500 transition">
+        <div>
+          <div class="flex items-center gap-3 text-2xl text-sky-400 mb-3">
+            <i class="devicon-php-plain"></i>
+            <i class="devicon-laravel-original"></i>
+            <i class="devicon-mysql-plain"></i>
+          </div>
+          <h3 class="text-xl font-semibold text-white mb-2">Plataforma Web MVC</h3>
+          <p class="text-slate-400 text-sm leading-relaxed mb-4">
+            Aplicación web desarrollada con PHP y Laravel. Implementa autenticación robusta, arquitectura MVC, operaciones CRUD completas y exportación automatizada de reportes en PDF.
+          </p>
+        </div>
+        <a href="https://github.com/MzhyMike/laravel-proyect" target="_blank" rel="noopener noreferrer" 
+           class="inline-flex items-center justify-center w-full px-4 py-2 text-sm font-medium bg-slate-700 hover:bg-slate-600 text-white rounded-lg transition">
+          Ver Código en GitHub &rarr;
+        </a>
+      </article>
+
+    </div>
+  </main>
+
+</body>
+</html>
